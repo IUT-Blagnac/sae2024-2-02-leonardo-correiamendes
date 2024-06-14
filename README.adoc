@@ -163,10 +163,10 @@ Vous utiliserez le dépôt initial qui vous aura été attribué via classroom p
 
 [options="header"]
 |==========================================================================
-| #    | lien                                               | langage  | catégorie 
-| 1    | link:src/main/java/iut/sae/algo/Efficacite.java    | Java     | Efficacité
-| 2    | link:src/main/java/iut/sae/algo/Simplicite.java    | Java     | Simplicité
-| 3    | link:src/main/java/iut/sae/algo/Sobriete.java      | Java     | Sobriété      
+| #    | lien                                                                    | langage  | catégorie 
+| 1    | link:src/main/java/iut/sae/algo/Efficacite.java[meilleur efficacité]    | Java     | Efficacité
+| 2    | link:src/main/java/iut/sae/algo/Simplicite.java[meilleur simplicité]    | Java     | Simplicité
+| 3    | link:src/main/java/iut/sae/algo/Sobriete.java[meilleur sobriété]        | Java     | Sobriété      
 |==========================================================================
 
 === Phase 2 (deadline : **vendredi 21 juin 2024** à minuit)
