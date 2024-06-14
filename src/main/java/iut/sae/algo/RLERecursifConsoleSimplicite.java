@@ -2,7 +2,7 @@ package iut.sae.algo;
 
 import java.util.Scanner;
 
-public class RLERecursifConsole{
+public class RLERecursifConsoleSimplicite{
 
     public static void main(String[] args){
         String in="";
@@ -27,7 +27,7 @@ public class RLERecursifConsole{
         try{
             System.out.println("Entrée : "+in);
             System.out.println("Itérations : "+iterations);
-            System.out.println("Sortie : "+ Algo.RLE(in, iterations));
+            System.out.println("Sortie : "+ Simplicite.RLE(in, iterations));
         }
         catch(AlgoException e){
             System.err.println("Erreur lors de la transformation");

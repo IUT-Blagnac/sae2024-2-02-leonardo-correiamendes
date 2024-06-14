@@ -2,7 +2,7 @@ package iut.sae.algo;
 
 import java.util.Scanner;
 
-public class RLEConsole{
+public class RLEConsoleEfficacite{
 
     public static void main(String[] args){
         String in="";
@@ -20,6 +20,6 @@ public class RLEConsole{
         }
 
         System.out.println("Entrée : "+in);
-        System.out.println("Sortie : "+ Algo.RLE(in));
+        System.out.println("Sortie : "+ Efficacite.RLE(in));
     }
 }
