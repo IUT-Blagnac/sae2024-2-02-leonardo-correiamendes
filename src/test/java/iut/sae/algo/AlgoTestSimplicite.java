@@ -87,8 +87,8 @@ public class AlgoTestSimplicite extends TestCase{
          assertEquals("aaabaa", Simplicite.unRLE("3a1b2a", 1));
          assertEquals("aAa", Simplicite.unRLE("1a1A1a", 1));
          
-         assertEquals("abc", (Simplicite.unRLE("111a111b111c", 3)));
-         assertEquals("abc", (Simplicite.unRLE("311a311b311c", 5)));
+         assertEquals("abc", (Simplicite.unRLE("111a111b111c", 2)));
+         assertEquals("abc", (Simplicite.unRLE("311a311b311c", 3)));
       }
       catch(Exception e){
          fail("Exception inatendue");
