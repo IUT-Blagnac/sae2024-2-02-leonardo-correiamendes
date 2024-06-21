@@ -4,6 +4,22 @@
 #include <assert.h> // librairie des tests
 #include <time.h> // librairie pour tester le temps d'exécution
 
+// 28efficacite.c
+// Compile V
+// Anonyme V
+// Fonctionne X free() : invalid pointer
+// Passe les tests ?
+// Passe tous les tests ?
+// Passe mes tests ?
+// Noté sur 5
+
+// Codacy ne m'a pas donné la compléxité de l'algo.
+// Cependant les algos non récursifs m'ont l'air d'être d'une compléxité de O(n) et les récursifs sont de O(n*k) avec n la taille de la chaine et k le nombre d'itérations.
+// Toutes fois je pense que l'algo pourrait être amélioré donc je vais retirer 1.0 point
+// Note : 4/20
+// Classement : 5
+
+
 /* Attention le nom de la seconde méthode récursive change car la surcharge de méthode n'est pas possible en C */
 
 char* RLE(char* in) {

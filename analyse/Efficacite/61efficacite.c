@@ -3,6 +3,21 @@
 #include <string.h>
 #include <time.h>
 
+// 61efficacite.c
+// Compile V
+// Anonyme V
+// Fonctionne V
+// Passe les tests X test2RLER et test7RLER ne passent pas.
+// Passe tous les tests X test2RLER et test7RLER ne passent pas.
+// Passe mes tests V
+// Noté sur 10
+
+// Codacy ne m'a pas donné la compléxité de l'algo.
+// Cependant les algos non récursifs m'ont l'air d'être d'une compléxité de O(n) et les récursifs sont de O(n*k) avec n la taille de la chaine et k le nombre d'itérations.
+// Toutes fois ce code passe mes tests donc je ne vais pas retirer de points.
+// Note : 10/20
+// Classement : 4
+
 char* RLE(char* text) {
     // on initialise les variables
     char lettre = text[0];

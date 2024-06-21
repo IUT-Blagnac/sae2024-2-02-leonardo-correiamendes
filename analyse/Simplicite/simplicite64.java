@@ -1,6 +1,22 @@
 package iut.sae.algo;
 
-public class Algo {
+// 64simplicite.java
+// Compile V
+// Anonyme V
+// Java Util V
+// Fonctionne V
+// Passe les tests X
+// Passe tous les tests X
+// Passe mes tests X
+// Noté sur 10 
+
+// Le code est très simple et compréhensible.
+// Cependant les tests ne passent pas. Mes tests ne passent pas non plus.
+// Je retire 1 point.
+// Note : 9/20
+// Classement : 4eme
+
+public class simplicite64 {
 
     public static String RLE(String in) throws AlgoException {
         return RLE(in, 1);

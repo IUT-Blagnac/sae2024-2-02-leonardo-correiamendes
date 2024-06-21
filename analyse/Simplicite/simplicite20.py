@@ -1,4 +1,18 @@
-class simplicite:
+# 20simplicite.py
+# Compile V
+# Anonyme V
+# Fonctionne V
+# Passe les tests V
+# Passe tous les tests V
+# Passe mes tests X
+# Noté sur 18
+
+# Le code pourrait être plus simple, mais il est fonctionnel. Les fonctions sont bien définies et les tests passent.
+# J'enlève 3 points.
+# Note : 15/20
+# Classement : 3eme
+
+class simplicite20:
     def RLE(en):
         nouvelle_str = "" # ajoute nouvelle chaine
         while en: # tant que la chaine n'est pas vide
@@ -19,7 +33,7 @@ class simplicite:
         en = en[i:] # suprime de la chaine de base bout deja analysé 
         if iteration == 1:
             return nouvelle_str
-        return simplicite.RLER(nouvelle_str, iteration-1) # rappelle la fonction avec la nouvelle chaine 
+        return simplicite20.RLER(nouvelle_str, iteration-1) # rappelle la fonction avec la nouvelle chaine 
 
     def unRLE(en):
         nouvelle_str = "" # nouvelle chaine 
@@ -35,4 +49,4 @@ class simplicite:
             en = en[2:] # supprime ce bout de la chaine
         if iteration == 1: # si une seule iteration retourne le resultat
             return nouvelle_str 
-        return simplicite.unRLER(nouvelle_str, iteration-1) # rappelle la fonction avec la nouvelle chaine et iteration-1
+        return simplicite20.unRLER(nouvelle_str, iteration-1) # rappelle la fonction avec la nouvelle chaine et iteration-1

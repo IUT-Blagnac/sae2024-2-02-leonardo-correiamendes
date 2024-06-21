@@ -1,14 +1,19 @@
 package iut.sae.algo;
 
-// 16efficacite
+// 16efficacite.java
 // Compile V
-// Anonyme
+// Anonyme V
 // Java Util V
 // Fonctionne V
 // Passe les tests V
 // Passe tous les tests V
 // Passe mes tests V
 // Noté sur 20
+
+// Compléxité 14 selon Codacy (qui me parrait assez grande donc je vais mettre la note de 13/20)
+// Les algos non récursifs sont d'une compléxité de O(n) et les récursifs sont de O(n*k) avec n la taille de la chaine et k le nombre d'itérations
+// Note : 13/20
+// Classement : 3eme
 
 /** 
  * Classe contenant les algorithmes de compression et décompression RLE

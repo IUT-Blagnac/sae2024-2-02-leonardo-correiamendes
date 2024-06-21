@@ -1,6 +1,22 @@
 package iut.sae.algo;
 
-public class Efficacite {
+// 59efficacite.java
+// Compile V
+// Anonyme V
+// Java Util V
+// Fonctionne V
+// Passe les tests V
+// Passe tous les tests V
+// Passe mes tests X 
+// Noté sur 18
+
+// Compléxité 5 selon Codacy (qui me parrait assez correct donc je vais mettre la note de 17.5/20)
+// Les algos non récursifs sont d'une compléxité de O(n) et les récursifs sont de O(n*k) avec n la taille de la chaine et k le nombre d'itérations
+// Cependant je pense que l'algo pourrait être amélioré donc je vais retirer 1.0 points
+// Note : 16.5/20 arrondie à 17
+// Classement : 1eme
+
+public class efficacite59 {
     /**
      * Effectue une compression RLE (Run-Length Encoding) sur la chaîne d'entrée.
      *

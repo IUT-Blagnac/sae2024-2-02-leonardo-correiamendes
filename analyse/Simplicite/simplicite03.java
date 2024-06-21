@@ -1,9 +1,23 @@
 package iut.sae.algo;
 
+// 03simplicite.java
+// Compile V
+// Anonyme V
+// Java Util V
+// Fonctionne V 
+// Passe les tests V
+// Passe tous les tests V
+// Passe mes tests X
+// Noté sur 18
+
+// Le code est très simple et compréhensible, cependant les variables pourrais être mieux nommées donc -1.5 point
+// Note : 16.5/20
+// Classement : 2eme
+
 /*
  * Cette classe fournit des méthodes pour les opérations de codage Run-Length (RLE) et de décodage sur les chaînes.
  */
-public class Simplicite {
+public class simplicite03 {
     /**
      * Effectue un codage de longueur d'exécution sur la chaîne d'entrée.
      *

@@ -1,6 +1,20 @@
 package iut.sae.algo;
 
-public class Algo {
+// 56simplicite.java
+// Compile V
+// Anonyme V
+// Java Util V
+// Fonctionne V
+// Passe les tests V
+// Passe tous les tests V
+// Passe mes tests X
+// Noté sur 18
+
+// Le code est très simple et compréhensible.
+// Note : 18/20
+// Classement : 1er
+
+public class simplicite56 {
     public static String RLE(String in) {
         if (in.isEmpty() || in == null) {
             return "";

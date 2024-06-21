@@ -1,3 +1,18 @@
+# 27efficacite.py
+# Compile V
+# Anonyme V
+# Fonctionne V
+# Passe les tests V
+# Passe tous les tests V
+# Passe mes tests V
+# Noté sur 20
+
+# Compléxité 5 selon Codacy (qui me parrait assez correct donc je vais mettre la note de 17.5/20)
+# Les algos non récursifs sont d'une compléxité de O(n) et les récursifs sont de O(n*k) avec n la taille de la chaine et k le nombre d'itérations
+# Cependant je pense que l'algo pourrait être un peu amélioré donc je vais retirer 0.5 points
+# Note : 17/20
+# Classement : 1eme
+
 def RLE(chaine :str ) -> str:
     nvlchaine = ""
     cpt = 1
